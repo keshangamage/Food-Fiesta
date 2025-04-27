@@ -31,14 +31,10 @@ body {
 
 .nav-links {
   list-style: none;
-  display: none;
-  flex-direction: column;
-  background: white;
-  position: absolute;
-  top: 60px;
-  right: 0;
-  width: 200px;
-  text-align: center;
+  display: flex; 
+  flex-direction: row;
+  background: #222;
+  position: static;
   gap: 1.5rem;
 }
 
@@ -51,6 +47,21 @@ body {
 
 .nav-links a:hover {
   color: #f0c040;
+}
+
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  border-radius: 2px;
 }
 
 /* Hero Section */
@@ -224,26 +235,11 @@ section {
   font-size: 0.9rem;
 }
 
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 5px;
-}
-
-.hamburger span {
-  width: 25px;
-  height: 3px;
-  background: #fff;
-  border-radius: 2px;
-}
-
-
 
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
-    top: 70px; 
+    top: 70px;
     right: 0;
     background: #222;
     width: 200px;
@@ -252,11 +248,13 @@ section {
     gap: 2rem;
     padding: 2rem 0;
     transform: translateX(100%);
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in-out;
+    display: none; 
   }
 
   .nav-links.active {
     transform: translateX(0);
+    display: flex; 
   }
 
   .hamburger {
@@ -266,25 +264,11 @@ section {
     gap: 5px;
   }
 
-  .menu-category.specials {
-    padding: 2rem 1rem;
-    margin-top: 2rem;
-  }
-
-  .menu-card {
-    padding: 1rem;
-  }
-
-  .menu-card img {
-    height: 150px;
-  }
-
-  .menu-category h3 {
-    font-size: 1.8rem;
-  }
-
-  .menu-card h3 {
-    font-size: 1.2rem;
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
   }
 }
 
