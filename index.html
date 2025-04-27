@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Fiesta</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="navbar">
+      <div class="logo">Food Fiesta</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#reservation">Reservation</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="overlay"></div>
+      
+      <div class="hero-content">
+        <h1>Welcome to Food Fiesta</h1>
+        <p>Fine dining meets unforgettable taste</p>
+        <a href="#menu" class="btn">View Menu</a>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+      <h2>Our Menu</h2>
+
+      <!-- Starters -->
+      <div class="menu-category">
+        <h3>Starters</h3>
+        <div class="menu-items">
+          <div class="menu-card">
+            <img src="./assets/Tomato-Basil-Soup.jpg" alt="Tomato Basil Soup" />
+            <h4>Tomato Basil Soup</h4>
+            <p>Rich, creamy soup made with fresh tomatoes and basil.</p>
+            <span>$6.99</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Caesar-Salad.jpg" alt="Caesar Salad" />
+            <h4>Caesar Salad</h4>
+            <p>
+              Crisp romaine lettuce tossed with Caesar dressing and croutons.
+            </p>
+            <span>$8.50</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Cheesy-Texas-Toast.png" alt="Garlic Bread with Cheese" />
+            <h4>Garlic Bread with Cheese</h4>
+            <p>Toasted bread topped with garlic butter and melted cheese.</p>
+            <span>$5.75</span>
+          </div>
+          <div class="menu-card special">
+            <span class="badge">New!</span>
+            <img src="./assets/Mexican-Shrimp-Cocktail.jpg" alt="Shrimp Cocktail" />
+            <h4>Shrimp Cocktail</h4>
+            <p>Chilled shrimp served with zesty cocktail sauce.</p>
+            <span>$10.00</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Stuffed Mushrooms.jpg" alt="Stuffed Mushrooms" />
+            <h4>Stuffed Mushrooms</h4>
+            <p>
+              Button mushrooms filled with herbed cream cheese and baked to
+              perfection.
+            </p>
+            <span>$7.25</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Avocado Toast.jpg" alt="Avocado Toast" />
+            <h4>Avocado Toast</h4>
+            <p>
+              Fresh avocado spread on toasted sourdough with a sprinkle of chili
+              flakes.
+            </p>
+            <span>$6.50</span>
+          </div>
+          <div class="menu-card">
+            <img
+              src="./assets/Spinach Artichoke Dip.jpg"
+              alt="Spinach Artichoke Dip"
+            />
+            <h4>Spinach Artichoke Dip</h4>
+            <p>Creamy dip served warm with crispy tortilla chips.</p>
+            <span>$7.99</span>
+          </div>
+          <div class="menu-card special">
+            <span class="badge">New!</span>
+            <img
+              src="./assets/Buffalo Chicken Wings.jpg"
+              alt="Buffalo Chicken Wings"
+            />
+            <h4>Buffalo Chicken Wings</h4>
+            <p>Spicy buffalo wings served with ranch dressing.</p>
+            <span>$9.25</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Crispy Calamari.jpg" alt="Crispy Calamari" />
+            <h4>Crispy Calamari</h4>
+            <p>Lightly breaded calamari rings with marinara sauce.</p>
+            <span>$10.50</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Greek Salad.jpg" alt="Greek Salad" />
+            <h4>Greek Salad</h4>
+            <p>Fresh cucumbers, tomatoes, olives, feta, and vinaigrette.</p>
+            <span>$8.00</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mains -->
+      <div class="menu-category">
+        <h3>Mains</h3>
+        <div class="menu-items">
+          <div class="menu-card">
+            <img
+              src="./assets/Grilled-Ribeyes.jpg"
+              alt="Grilled Ribeye Steak"
+            />
+            <h4>Grilled Ribeye Steak</h4>
+            <p>Juicy ribeye grilled to perfection, served with herb butter.</p>
+            <span>$29.99</span>
+          </div>
+          <div class="menu-card">
+            <img
+              src="./assets/Classic Margherita Pizza.jpeg"
+              alt="Classic Margherita Pizza"
+            />
+            <h4>Classic Margherita Pizza</h4>
+            <p>
+              Fresh tomatoes, mozzarella cheese, and basil on a crisp crust.
+            </p>
+            <span>$15.50</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Buddha Bowl.jpg" alt="Vegan Buddha Bowl" />
+            <h4>Vegan Buddha Bowl</h4>
+            <p>Healthy bowl with quinoa, chickpeas, avocado, and greens.</p>
+            <span>$12.75</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Carbonara.jpg" alt="Spaghetti Carbonara" />
+            <h4>Spaghetti Carbonara</h4>
+            <p>Classic Italian pasta with pancetta, egg, and parmesan.</p>
+            <span>$17.99</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Pan-Seared Salmon.jpg" alt="Pan-Seared Salmon" />
+            <h4>Pan-Seared Salmon</h4>
+            <p>Fresh salmon filet served with lemon dill sauce.</p>
+            <span>$24.50</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/BBQ Ribs.jpg" alt="BBQ Ribs" />
+            <h4>BBQ Ribs</h4>
+            <p>Slow-cooked ribs glazed with smoky barbecue sauce.</p>
+            <span>$27.00</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Veggie Burger.jpg" alt="Veggie Burger" />
+            <h4>Veggie Burger</h4>
+            <p>
+              Plant-based burger served with lettuce, tomato, and special sauce.
+            </p>
+            <span>$13.25</span>
+          </div>
+          <div class="menu-card special">
+            <span class="badge">New!</span>
+            <img src="./assets/Chicken Alfredo.jpg" alt="Chicken Alfredo" />
+            <h4>Chicken Alfredo</h4>
+            <p>Grilled chicken breast served over creamy Alfredo pasta.</p>
+            <span>$18.75</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Beef Tacos.webp" alt="Beef Tacos" />
+            <h4>Beef Tacos</h4>
+            <p>Three soft tacos filled with seasoned beef and toppings.</p>
+            <span>$14.25</span>
+          </div>
+          <div class="menu-card special">
+            <span class="badge">New!</span>
+            <img
+              src="./assets/Stuffed Bell Peppers.jpg"
+              alt="Stuffed Bell Peppers"
+            />
+            <h4>Stuffed Bell Peppers</h4>
+            <p>Bell peppers stuffed with rice, vegetables, and cheese.</p>
+            <span>$13.99</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desserts -->
+      <div class="menu-category">
+        <h3>Desserts</h3>
+        <div class="menu-items">
+          <div class="menu-card">
+            <img
+              src="./assets/Chocolate Lava Cake.jpg"
+              alt="Chocolate Lava Cake"
+            />
+            <h4>Chocolate Lava Cake</h4>
+            <p>Decadent chocolate cake with a molten center.</p>
+            <span>$8.99</span>
+          </div>
+          <div class="menu-card">
+            <img
+              src="./assets/New York Cheesecake.jpg"
+              alt="New York Cheesecake"
+            />
+            <h4>New York Cheesecake</h4>
+            <p>Rich and creamy cheesecake on a graham cracker crust.</p>
+            <span>$7.50</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Tiramisu.jpg" alt="Tiramisu" />
+            <h4>Tiramisu</h4>
+            <p>
+              Classic Italian dessert with layers of coffee-soaked ladyfingers.
+            </p>
+            <span>$8.25</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Ice Cream Sundae.jpg" alt="Ice Cream Sundae" />
+            <h4>Ice Cream Sundae</h4>
+            <p>Vanilla ice cream topped with chocolate syrup and nuts.</p>
+            <span>$6.00</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Classic Apple Pie.jpg" alt="Apple Pie" />
+            <h4>Classic Apple Pie</h4>
+            <p>
+              Warm apple pie with a flaky crust, served with vanilla ice cream.
+            </p>
+            <span>$7.00</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Assorted Macarons.jpg" alt="Assorted Macarons" />
+            <h4>Assorted Macarons</h4>
+            <p>Colorful, delicate French macarons in a variety of flavors.</p>
+            <span>$6.75</span>
+          </div>
+          <div class="menu-card special">
+            <span class="badge">New!</span>
+            <img src="./assets/Banana-Split.jpg" alt="Banana Split" />
+            <h4>Banana Split</h4>
+            <p>
+              Classic banana split with three scoops of ice cream and toppings.
+            </p>
+            <span>$8.50</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Crème Brûlée.jpg" alt="Crème Brûlée" />
+            <h4>Crème Brûlée</h4>
+            <p>Silky vanilla custard topped with a caramelized sugar crust.</p>
+            <span>$9.00</span>
+          </div>
+          <div class="menu-card">
+            <img
+              src="./assets/Chocolate Fudge Brownie.jpg"
+              alt="Chocolate Fudge Brownie"
+            />
+            <h4>Chocolate Fudge Brownie</h4>
+            <p>
+              Rich chocolate brownie served with a scoop of vanilla ice cream.
+            </p>
+            <span>$7.25</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Lemon Tart.webp" alt="Lemon Tart" />
+            <h4>Lemon Tart</h4>
+            <p>Buttery tart filled with tangy lemon curd.</p>
+            <span>$7.50</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Drinks -->
+      <div class="menu-category">
+        <h3>Drinks</h3>
+        <div class="menu-items">
+          <div class="menu-card">
+            <img src="./assets/Fresh Lemonade.jpg" alt="Fresh Lemonade" />
+            <h4>Fresh Lemonade</h4>
+            <p>Homemade lemonade made with fresh lemons.</p>
+            <span>$4.50</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Cappuccino.jpg" alt="Cappuccino" />
+            <h4>Cappuccino</h4>
+            <p>Espresso blended with steamed milk and frothy foam.</p>
+            <span>$5.00</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Red Wine.jpg" alt="House Red Wine" />
+            <h4>House Red Wine</h4>
+            <p>A smooth and full-bodied house wine selection.</p>
+            <span>$8.00</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Mineral Water.avif" alt="Mineral Watero" />
+            <h4>Mineral Water</h4>
+            <p>Refreshing sparkling or still mineral water.</p>
+            <span>$2.50</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Ice Coffee.webp" alt="Iced Coffee" />
+            <h4>Iced Coffee</h4>
+            <p>Chilled brewed coffee served over ice with a splash of milk.</p>
+            <span>$4.75</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Classic Mojito.jpg" alt="Classic Mojito" />
+            <h4>Classic Mojito</h4>
+            <p>
+              Refreshing cocktail with rum, mint, lime, sugar, and soda water.
+            </p>
+            <span>$9.50</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Matcha Latte.jpg" alt="Matcha Latte" />
+            <h4>Matcha Latte</h4>
+            <p>Japanese green tea blended with steamed milk.</p>
+            <span>$5.25</span>
+          </div>
+          <div class="menu-card">
+            <img
+              src="./assets/Fresh Orange Juice.jpg"
+              alt="Fresh Orange Juice"
+            />
+            <h4>Fresh Orange Juice</h4>
+            <p>Freshly squeezed orange juice served chilled.</p>
+            <span>$4.00</span>
+          </div>
+          <div class="menu-card">
+            <img src="./assets/Craft Beer.jpg" alt="Craft Beer" />
+            <h4>Craft Beer</h4>
+            <p>Selection of local and imported craft beers.</p>
+            <span>$7.00</span>
+          </div>
+          <div class="menu-card special">
+            <span class="badge">New!</span>
+            <img src="./assets/Classic Iced Tea.jpg" alt="Iced Tea" />
+            <h4>Classic Iced Tea</h4>
+            <p>Refreshing brewed black tea served over ice with lemon.</p>
+            <span>$3.75</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Specials -->
+      <div class="menu-category specials">
+        <h3>Chef's Specials</h3>
+        <div class="menu-items">
+          <div class="menu-card special">
+            <span class="badge">New!</span>
+            <img
+              src="./assets/Truffle Alfredo Pasta.jpg"
+              alt="Truffle Alfredo Pasta"
+            />
+            <h4>Truffle Alfredo Pasta</h4>
+            <p>
+              Rich, creamy Alfredo sauce infused with black truffle, tossed with
+              fettuccine.
+            </p>
+            <span>$22.99</span>
+          </div>
+          <div class="menu-card special">
+            <span class="badge">New!</span>
+            <img src="./assets/Surf and Turf.jpg" alt="Surf and Turf" />
+            <h4>Surf and Turf</h4>
+            <p>Grilled filet mignon paired with butter-poached lobster tail.</p>
+            <span>$39.99</span>
+          </div>
+          <div class="menu-card special">
+            <span class="badge">New!</span>
+            <img
+              src="./assets/Pumpkin Spice Latte.jpg"
+              alt="Pumpkin Spice Latte"
+            />
+            <h4>Pumpkin Spice Latte</h4>
+            <p>
+              Seasonal espresso drink with spiced pumpkin flavors and whipped
+              cream.
+            </p>
+            <span>$5.25</span>
+          </div>
+          <div class="menu-card special">
+            <span class="badge">New!</span>
+            <img src="./assets/Southern Pecan Pie.jpg" alt="Pecan Pie" />
+            <h4>Southern Pecan Pie</h4>
+            <p>
+              Classic pecan pie with a rich, buttery filling and toasted pecans.
+            </p>
+            <span>$7.75</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>
+        Food Fiesta has been serving delightful dishes with a perfect blend of tradition and innovation. Our talented chefs are passionate about bringing you the best culinary experience in town, using fresh ingredients and unique flavors.
+      </p>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+      <h2>Book a Table</h2>
+      <form id="reservation-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="date" required />
+        <input type="time" required />
+        <input type="number" placeholder="Number of Guests" required min="1" />
+        <input type="tel" placeholder="Phone Number" required />
+        <button type="submit" class="btn">Reserve Now</button>
+      </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>Visit us at: 456 Colombo, Sri-Lanka</p>
+      <p>Email: keshan.gimhana.gamage@gmail.com</p>
+      <p>Phone: +9412121212</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 Food Fiesta. All rights reserved.</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
